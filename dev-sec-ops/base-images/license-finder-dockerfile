@@ -10,6 +10,7 @@ RUN apt-get install -y build-essential
 # Install license_finder gem
 RUN gem install license_finder
 
+
 # Set working directory
 WORKDIR /scan
 
