@@ -8,6 +8,7 @@ jobs:
   build_license_finder_base_images:
     runs-on: ubuntu-latest
 
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
