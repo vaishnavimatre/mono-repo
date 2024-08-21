@@ -3,7 +3,7 @@ name: Build and Push Case-Service Docker Images
 on:
   push:
     paths:
-      - hospital-management/Case-Service
+      - hospital-management/case-service
 
 jobs:
   build-push-case-service:
